@@ -1,0 +1,113 @@
+markdown: kramdown
+remote_theme: daviddarnes/alembic
+
+exclude:
+  - README.md
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
+
+# 3. Gem settings
+paginate: 2
+paginate_path: blog/page:num
+jekyll-mentions: https://twitter.com
+twitter:
+  username: arsulegai
+author: arsulegai
+social:
+  name: Arun S M
+  links:
+    - https://twitter.com/arsulegai
+    - https://www.facebook.com/Arun.S.M.cse
+    - https://www.linkedin.com/in/arunsm93
+    - https://github.com/arsulegai
+
+# 4. Jekyll settings
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: <!-- more -->
+timezone: India
+
+# 5. Collections
+collections:
+  articles:
+    title: Articles
+    output: true
+    description: "Learn more about Arun"
+    feature_text: |
+      <h2 style="color:white; background-color:black; opacity:0.6;">Learn more about Arun</h2>
+    feature_image: "https://picsum.photos/id/24/4855/1803"
+    aside: true
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "/assets/logos/favicon.png"
+  -
+    scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
+# 7. Site settings
+encoding: utf-8
+lang: en-GB
+title: "Arun S M"
+description: "Arun is Senior Software Engineer in the Blockchain Platforms Team at Walmart (Bangalore), a maintainer and an active contributor to the Hyperledger projects."
+url: "https://arsulegai.github.io"
+baseurl: ""
+repo: "https://github.com/arsulegai/arsulegai.github.io"
+css_inline: true
+
+# 8. Site favicons & manifest icons
+favicons:
+  16: '/assets/logos/favicon.png'
+  32: '/assets/logos/favicon.png'
+  96: '/assets/logos/favicon.png'
+  120: '/assets/logos/favicon.png'
+  144: '/assets/logos/favicon.png'
+  180: '/assets/logos/favicon.png'
+  512: '/assets/logos/favicon.png'
+  1024: '/assets/logos/favicon.png'
+
+navigation_header:
+  - title: Home
+    url: /
+  - title: Articles
+    url: /articles/
+  - title: Search
+    url: /search/
+
+navigation_footer:
+  - title: Built using Alembic, a theme for Jekyll
+    url: https://github.com/daviddarnes/alembic
+
+social_links:
+  Twitter: https://twitter.com/arsulegai
+  LinkedIn: https://www.linkedin.com/in/arunsm93
+  GitHub: https://github.com/arsulegai
+
+sharing_links:
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: false
