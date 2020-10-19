@@ -48,6 +48,14 @@ collections:
       <h2 style="color:white; background-color:black; opacity:0.6;">Learn more about Arun</h2>
     feature_image: "https://picsum.photos/id/24/4855/1803"
     aside: true
+  projects:
+    title: Projects
+    output: true
+    description: "Interesting projects"
+    feature_text: |
+      <h2 style="color:white; background-color:black; opacity:0.6;">Projects</h2>
+    feature_image: "https://picsum.photos/id/180/2400/1600"
+    aside: true
 
 # 6. Jekyll collections settings
 defaults:
@@ -65,7 +73,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: "projects"
     values:
       layout: page
 
@@ -93,6 +101,8 @@ favicons:
 navigation_header:
   - title: Home
     url: /
+  - title: Projects
+    url: /projects/
   - title: Articles
     url: /articles/
   - title: Search
@@ -110,4 +120,5 @@ social_links:
 sharing_links:
   Twitter: "#0d94e7"
   facebook: "#3B5998"
+  LinkedIn: "#0077B5"
   Email: false
