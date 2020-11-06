@@ -19,6 +19,9 @@ a project under the Linux Foundation lists 15 selected representatives
 who have been elected to serve the Hyperledger TSC for the term
 2020-21.
 
+There also is a result announcement blog post. Read the
+[Hyperledger blog post](https://www.hyperledger.org/blog/2020/10/26/introducing-the-expanded-2020-2021-hyperledger-technical-steering-committee).
+
 The result announcement information can also be found on the
 [Hyperledger Wiki](https://wiki.hyperledger.org/display/TSC/Announce+the+Winners).
 Active and past Hyperledger TSC members can be found on
