@@ -56,6 +56,14 @@ collections:
       <h2 style="color:white; background-color:black; opacity:0.6;">Projects</h2>
     feature_image: "https://picsum.photos/id/180/2400/1600"
     aside: true
+  videos:
+    title: Videos
+    output: true
+    description: "Video presentations"
+    feature_text: |
+      <h2 style="color:white; background-color:black; opacity:0.6;">Videos</h2>
+    feature_image: "https://picsum.photos/id/1031/367/267"
+    aside: true
 
 # 6. Jekyll collections settings
 defaults:
@@ -74,6 +82,13 @@ defaults:
     scope:
       path: ""
       type: "projects"
+    values:
+      layout: page
+
+  -
+    scope:
+      path: ""
+      type: "videos"
     values:
       layout: page
 
@@ -105,6 +120,8 @@ navigation_header:
     url: /projects/
   - title: Articles
     url: /articles/
+  - title: Videos
+    url: /videos/
   - title: Search
     url: /search/
 
